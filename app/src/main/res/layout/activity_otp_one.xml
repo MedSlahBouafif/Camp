@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="otpOneVM" type="com.mohamedslahsapplication.app.modules.otpone.data.viewmodel.OtpOneVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearOTPOne"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageOtpvector"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_258pxh"
+            android:layout_marginEnd="@dimen/_30pxh"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_marginTop="@dimen/_60pxv"
+            android:layout_width="@dimen/_257pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_otpvector_258x257"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_otpvector_258x257"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtOTPVerificatio"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_30pxh"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_marginTop="@dimen/_43pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{otpOneVM.otpOneModel.txtOTPVerificatio}"
+            style="@style/txtHelveticabold24" tools:text="@string/msg_otp_verificatio"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtWewillsendto"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_30pxh"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_marginTop="@dimen/_27pxv"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_8pxh"
+            android:text="@{otpOneVM.otpOneModel.txtWewillsendto}"
+            style="@style/txtHelvetica16" tools:text="@string/msg_we_will_send_to"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtEnterMobileNu"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_30pxh"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_marginTop="@dimen/_26pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{otpOneVM.otpOneModel.txtEnterMobileNu}"
+            style="@style/txtSFProDisplayregular14" tools:text="@string/msg_enter_mobile_nu"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearRowseven"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_30pxh"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_marginTop="@dimen/_15pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumnseven"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_weight="0.3" android:layout_width="0dp" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtSeven"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_17pxh"
+                    android:layout_marginStart="@dimen/_17pxh"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{otpOneVM.otpOneModel.txtSeven}"
+                    style="@style/txtSFUIDisplaymedium24" tools:text="@string/lbl_7"/>
+                <View android:background="@color/green_A200"
+                    android:id="@+id/lineLineOne"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_1pxv"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_4pxv" android:layout_width="@dimen/_48pxh"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumnthree"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_weight="0.3" android:layout_width="0dp" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtThree"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_17pxh"
+                    android:layout_marginStart="@dimen/_17pxh"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{otpOneVM.otpOneModel.txtThree}"
+                    style="@style/txtSFUIDisplaymedium24" tools:text="@string/lbl_3"/>
+                <View android:background="@color/green_A200"
+                    android:id="@+id/lineLineOneOne"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_1pxv"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_4pxv" android:layout_width="@dimen/_48pxh"/>
+            </LinearLayout>
+            <View android:background="@color/gray_400"
+                android:id="@+id/lineLineOneTwo"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginTop="@dimen/_34pxv"
+                android:layout_weight="0.2" android:layout_width="0dp"/>
+            <View android:background="@color/gray_400"
+                android:id="@+id/lineLineOneThree"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginStart="@dimen/_24pxh"
+                android:layout_marginTop="@dimen/_34pxv"
+                android:layout_weight="0.2" android:layout_width="0dp"/>
+        </LinearLayout>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtDidntyourece"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_30pxh"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_marginTop="@dimen/_13pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{otpOneVM.otpOneModel.txtDidntyourece}"
+            style="@style/txtSFProDisplayregular14" tools:text="@string/msg_didn_t_you_rece"/>
+        <FrameLayout android:id="@+id/frameVerifyButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_72pxv"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_30pxh"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_width="@dimen/_315pxh" style="@style/groupStylecornerRadius_2">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtVerify"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_25pxv"
+                android:layout_marginEnd="@dimen/_40pxh"
+                android:layout_marginStart="@dimen/_40pxh"
+                android:layout_marginTop="@dimen/_27pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{otpOneVM.otpOneModel.txtVerify}"
+                style="@style/txtRobotoregular16_2" tools:text="@string/lbl_verify"/>
+            <View
+                android:background="@drawable/rectangle_bg_white_a700_66_radius_28"
+                android:id="@+id/viewButton"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_72pxv" android:layout_width="@dimen/_315pxh"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>
