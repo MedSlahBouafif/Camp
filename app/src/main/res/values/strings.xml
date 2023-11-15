@@ -1,3 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-    <string name="app_name">projet</string>
+    <string name="app_name">mohamed_slah_s_application</string>
+    <string name="loading">Loading?</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <!--TODO ENTER YOUR APP ID BELOW-->
+    <string name="facebook_app_id"/>
+    <!--TODO ENTER YOUR APP ID BELOW (eg: fb0123456789)-->
+    <string name="fb_login_protocol_scheme">fb</string>
+    <!--TODO ENTER YOUR Client Token BELOW-->
+    <string name="facebook_client_token"/>
+<string name="msg_we_will_send_to">We will send to you a one-time password to this mobile number</string>
+<string name="lbl_your_last_name">Your last name</string>
+<string name="lbl_city">City</string>
+<string name="lbl_your_username">Your username</string>
+<string name="lbl_complete">Complete</string>
+<string name="lbl_0">0</string>
+<string name="lbl_locate">Locate</string>
+<string name="lbl_email_address">Email Address</string>
+<string name="lbl_last_name">Last Name</string>
+<string name="lbl_3">3</string>
+<string name="msg_didn_t_you_rece2">Didn´t you receive the OTP? </string>
+<string name="msg_your_birthday">Your birthday (dd-mm-yyyy)</string>
+<string name="lbl_route">Route</string>
+<string name="lbl_resend_otp">Resend OTP</string>
+<string name="lbl_7">7</string>
+<string name="msg_av_beira_mar">Av. Beira Mar, 256 - Centro</string>
+<string name="lbl_8">8</string>
+<string name="msg_otp_verificatio">OTP Verification</string>
+<string name="lbl_date_of_birth">Date of Birth</string>
+<string name="lbl_call">Call</string>
+<string name="lbl_first_name">First Name</string>
+<string name="lbl_state">State</string>
+<string name="lbl_itagu_camping">Itaguá Camping</string>
+<string name="msg_the_email_addre">The email address is incomplete</string>
+<string name="lbl_verify">Verify</string>
+<string name="msg_tim_jennings_ex">tim.jennings@example.com</string>
+<string name="lbl_sign_in">Sign in</string>
+<string name="lbl_your_name">Your name</string>
+<string name="msg_sign_in_with_fa">Sign in with Facebook</string>
+<string name="lbl_mattyice">MattyIce</string>
+<string name="lbl_201_555_0124">(201) 555-0124</string>
+<string name="lbl_shaw">Shaw</string>
+<string name="lbl_my_location">My Location</string>
+<string name="lbl_sign_up">Sign up</string>
+<string name="lbl_get_otp">Get OTP</string>
+<string name="lbl_password">Password</string>
+<string name="lbl_hawkins">Hawkins</string>
+<string name="msg_tim_jennings_ex2">tim.jennings@example</string>
+<string name="lbl_shawn">Shawn</string>
+<string name="lbl_camping_recanto">Camping Recanto</string>
+<string name="msg_forgot_password">Forgot Password?</string>
+<string name="lbl_12_06_1983">12/06/1983</string>
+<string name="msg_enter_mobile_nu">Enter Mobile Number</string>
+<string name="msg_didn_t_you_rece">Didn´t you receive the OTP? Resend OTP</string>
+<string name="msg_sign_in_with_go">Sign in with Google</string>
+<string name="lbl">\u2022\u2022\u2022\u2022\u2022\u2022</string>
+<string name="lbl_username">Username</string>
+<string name="lbl_camping010203">CAMPING010203</string>
+<string name="msg_please_enter_valid_text">Please enter valid text</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
 </resources>
